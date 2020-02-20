@@ -1,0 +1,62 @@
+/* Reset CSS*/
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        box-sizing: border-box;
+    }
+    /* Proprietà generali della pagina*/
+    body{ 
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        font-size: 19px;
+        color:#2d2d2d;
+        background-color: #d1d1d1;
+    }
+    h1,h2,h3,h4,h5{
+        font-family:'Big Shoulders Text', Helvetica, sans-serif ;
+    }
+   
+
+    .wide{
+        background-color: #2d2d2d;
+        color: #ffffff;
+    }
+    header{
+        display: flex;
+        /*flex-direction: row; default flex, verticale: column*/
+        justify-content: space-between;
+        padding: 30px 20px;
+    }
+    nav li{
+        display: inline-block; /* modo alternativo per mettere elementi in orizzontale*/
+        margin-left: 20px; /* faccio 20px di spazio fra i links*/
+        list-style: none; /* toglie pallini dai li */
+        font-size: 26px;
+        text-transform: capitalize;
+    }
+    nav a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    nav a:hover,
+    nav .active{
+        color: #009eee;
+        /* text-decoration: underline; */
+    }
+    #banner{
+        width: 100%;
+        height: 300px;
+        background: url(immagini/mohole.jpg) no-repeat center center ;
+        background-size:cover ;
+    }
+    #banner h3 {
+        /*aggiunti:*/
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        /*  line-height: 300px; /* posiziona al centro il messaggio*/
+        text-shadow: 5px 3px 5px #333;
+        /*shadow asse x, y, sfumatura, colore */
+        padding-top: 100px;
+    }
