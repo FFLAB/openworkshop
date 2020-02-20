@@ -23,14 +23,16 @@
         font-family:'Bevan', Helvetica, sans-serif ;
     }
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
+  
+  
     img{
         max-width: 100%;
         height: auto;
     }
    .title{
-       color:#f8fa66;
+       color:#fff
    }
 
     .dark{
