@@ -17,10 +17,10 @@
     */
     /* Proprietà generali della pagina*/
     p{ 
-        font-family: 'Arvo', Helvetica, sans-serif;
+        font-family: 'Arvo', sans-serif;
     }
     h1,h2,h3,h4,h5{
-        font-family:'Bevan', Helvetica, sans-serif ;
+        font-family:'Bevan', sans-serif ;
     }
     h1{
         font-size: 3rem;
