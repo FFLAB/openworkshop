@@ -7,69 +7,28 @@
         box-sizing: border-box;
     }
     /* Proprietà generali della pagina*/
-    body{ 
+    p{ 
         font-family: 'Arvo', Helvetica, sans-serif;
-        font-size: 19px;
-        color:#2d2d2d;
-        /* background-color: #d1d1d1; */
-        background-color: #fff;
     }
     h1,h2,h3,h4,h5{
         font-family:'Bevan', Helvetica, sans-serif ;
     }
     h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     img{
         max-width: 100%;
         height: auto;
     }
-   .title a{
-       text-decoration: none;
+   .title{
        color:#f8fa66;
    }
 
     .dark{
         background-color: #2d2d2d;
         color: #ffffff;
-    }
-    header{
-        display: flex;
-        /*flex-direction: row; default flex, verticale: column*/
-        justify-content: space-between;
-        padding: 3rem 2rem;
-    }
-    nav li{
-        display: inline-block; /* modo alternativo per mettere elementi in orizzontale*/
-        margin-left: 20px; /* faccio 20px di spazio fra i links*/
-        list-style: none; /* toglie pallini dai li */
-        font-size: 26px;
-        text-transform: capitalize;
-    }
-    nav a{
-        color: #ffffff;
-        text-decoration: none;
-    }
-    nav a:hover,
-    nav .active{
-        color: #009eee;
-        /* text-decoration: underline; */
-    }
-    #banner{
-        width: 100%;
-        height: 300px;
-        background: url(immagini/mohole.jpg) no-repeat center center ;
-        background-size:cover ;
-    }
-    #banner h3 {
-        /*aggiunti:*/
-        font-size: 3rem;
-        color: white;
         text-align: center;
-        /*  line-height: 300px; /* posiziona al centro il messaggio*/
-        text-shadow: 5px 3px 5px #333;
-        /*shadow asse x, y, sfumatura, colore */
-        padding-top: 100px;
+        padding: 3rem 2rem;
     }
 
     footer{
