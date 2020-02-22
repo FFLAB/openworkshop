@@ -16,39 +16,26 @@
     
     */
     /* Proprietà generali della pagina*/
-    p{ 
-        font-family: 'Arvo', sans-serif;
-    }
-    h1,h2,h3,h4,h5{
-        font-family:'Bevan', sans-serif ;
-    }
-    h1{
-        font-size: 3rem;
-    }
-  
+    p{ font-family: 'Arvo', sans-serif;}
+    h1,h2,h3,h4,h5{font-family:'Bevan', sans-serif ;}
+    h1{font-size: 3rem;}
   
     img{
         max-width: 100%;
         height: auto;
     }
-   .title{
-       color:#fff
-   }
+   .title{color:#fff}
 
-    .dark{
+    header, footer{
         background-color: #2d2d2d;
         color: #ffffff;
         text-align: center;
         padding: 3rem 2rem;
     }
 
-    footer{
-        padding:4rem 2rem;
-        text-align: center;
-    }
 
 
-/* default e mobile una card per riga */
+/* DISPLAY GRID: default mobile, una card per riga */
 section#cards{
     display: grid;
     grid-template-columns: 1fr;
@@ -80,7 +67,7 @@ section#cards{
       padding-bottom: 0.8rem;
   }
   /* da 600 px in su : due card per riga */
-  @media (min-width: 600px){
+  @media (min-width: 500px){
     section#cards{
       grid-template-columns: 1fr 1fr;
     }
